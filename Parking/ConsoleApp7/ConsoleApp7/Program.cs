@@ -369,6 +369,7 @@ namespace ConsoleApp7
                     Console.WriteLine("Dates in future");
                     Console.WriteLine("Press any key to continue");
                     Console.ReadLine();
+                    ConsoleHelper.ClearOutput();
                     continue;
                 }
 
@@ -378,6 +379,7 @@ namespace ConsoleApp7
                     Console.WriteLine("Ending date before begining date");
                     Console.WriteLine("Press any key to continue");
                     Console.ReadLine();
+                    ConsoleHelper.ClearOutput();
                     continue;
                 }
 
