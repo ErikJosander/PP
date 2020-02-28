@@ -363,12 +363,24 @@ namespace ConsoleApp7
                     throw;
                 }
 
-                if (beginningDate > endingDate)
+                if(beginningDate > DateTime.Now || endingDate > DateTime.Now)
                 {
-                    Console.WriteLine("Ending date before begining date");
+                    ConsoleHelper.ClearOutput();
+                    Console.WriteLine("Dates in future");
+                    Console.WriteLine("Press any key to continue");
+                    Console.ReadLine();
                     continue;
                 }
-                
+
+                if (beginningDate > endingDate)
+                {
+                    ConsoleHelper.ClearOutput();
+                    Console.WriteLine("Ending date before begining date");
+                    Console.WriteLine("Press any key to continue");
+                    Console.ReadLine();
+                    continue;
+                }
+
 
                 var intervalList = Repository.GetIntervalAndDayPrice(beginningDate, endingDate);
                 Console.WriteLine(intervalList.Count());
