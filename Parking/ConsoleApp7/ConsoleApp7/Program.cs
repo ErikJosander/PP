@@ -362,7 +362,6 @@ namespace ConsoleApp7
                     continue;
                     throw;
                 }
-
                 if(beginningDate > DateTime.Now || endingDate > DateTime.Now)
                 {
                     ConsoleHelper.ClearOutput();
@@ -372,7 +371,6 @@ namespace ConsoleApp7
                     ConsoleHelper.ClearOutput();
                     continue;
                 }
-
                 if (beginningDate > endingDate)
                 {
                     ConsoleHelper.ClearOutput();

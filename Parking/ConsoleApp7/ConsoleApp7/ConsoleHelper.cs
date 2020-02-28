@@ -85,12 +85,11 @@ namespace ConsoleApp7
             Console.WriteLine("(1) to creat vehicle");
             Console.WriteLine("(2) to delete vehicle");
             Console.WriteLine("(3) show all vehicles");
-            Console.WriteLine("(4) show history");
-            Console.WriteLine("(5) ");
-            Console.WriteLine("(6) move vehicle");
-            Console.WriteLine("(7) sort vehicles");
-            Console.WriteLine("(8) show list");
-            Console.WriteLine("(9) between dates");
+            Console.WriteLine("(4) show history");            
+            Console.WriteLine("(5) move vehicle");
+            Console.WriteLine("(6) sort vehicles");
+            Console.WriteLine("(7) show list");
+            Console.WriteLine("(8) between dates");
         }
 
 
