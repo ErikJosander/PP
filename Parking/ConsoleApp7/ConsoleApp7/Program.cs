@@ -387,6 +387,7 @@ namespace ConsoleApp7
                 {
                     Console.WriteLine($"{history.VehicleRegNumber}");
                 }
+                betweenDatesRunning = false;
             }
         }
     }
