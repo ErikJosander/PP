@@ -32,7 +32,7 @@ namespace ConsoleApp7
             while (programrunning)
             {
                 ConsoleHelper.MainWindow();
-                int input = ConsoleHelper.ReadIntInput(9);
+                int input = ConsoleHelper.ReadIntInput(8);
                 switch (input)
                 {
                     case 1:
@@ -46,31 +46,24 @@ namespace ConsoleApp7
                         break;
                     case 4:
                         ShowHistory();
-                        break;
+                        break;                    
                     case 5:
-                        ReturnToMain();
-                        break;
-                    case 6:
                         MoveVehicle();
                         break;
-                    case 7:
+                    case 6:
                         SortVehicles();
                         break;
-                    case 8:
+                    case 7:
                         ShowList();
                         break;
-                    case 9:
+                    case 8:
                         BetweenDatesList();
                         break;
                     default:
                         break;
                 }
             }
-        }
-        public static void ReturnToMain()
-        {
-
-        }
+        }       
         public static void CreateAndPlace()
         {
             var vehicle = CreateVehicle();

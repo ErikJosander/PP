@@ -88,7 +88,7 @@ namespace ConsoleApp7
             Console.WriteLine("(4) show history");            
             Console.WriteLine("(5) move vehicle");
             Console.WriteLine("(6) sort vehicles");
-            Console.WriteLine("(7) show list");
+            Console.WriteLine("(7) show list of most paying customers");
             Console.WriteLine("(8) between dates");
         }
 
